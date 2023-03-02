@@ -14,6 +14,6 @@ a unique and well-posed solution to the differential equation.
 
 
 
-[1] B. Engquist and A. Majda, Absorbing boundary conditions for the numerical
+[1]: B. Engquist and A. Majda, Absorbing boundary conditions for the numerical
 simulation of waves. Mathmatics of Computution, 1977,31(139):629-651
 

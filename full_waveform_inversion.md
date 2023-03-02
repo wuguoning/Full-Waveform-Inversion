@@ -13,10 +13,7 @@ We needs boundary conditions at these artificial boundaries in order to guarante
 a unique and well-posed solution to the differential equation.
 
 The wave equation:
-$$
-\frac{\partial^2 w}{\partial t^2} - \frac{\partial^2 w}{\partial x^2} - 
-\frac{\partial^2 w}{\partial y^2} = 0
-$$
+$$\frac{\partial^2 w}{\partial t^2} - \frac{\partial^2 w}{\partial x^2} - \frac{\partial^2 w}{\partial y^2} = 0 $$
 
 
 

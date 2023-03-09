@@ -1,0 +1,3 @@
+import deepwave
+
+print('hello!')

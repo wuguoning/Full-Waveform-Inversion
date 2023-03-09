@@ -35,27 +35,27 @@ prior information as constraints (Asnaashari et al., 2013).
 processing, and many other fields has drawn attention to its potential application in
 FWI (Adler et al., 2021).
 
-  1. One research direction is to build a direct inverse mapping from observations 
-  to subserfaces structure by training neural networks on paired data of seismic 
-  waveforms and velocity models (Wu et al., 2018; Yang and Ma, 2019; Li et al., 2019
-  Kazei et al., 2021). This approach does not rely on solving the wave equation 
-  but instead treat FWI as a data-driven machine learning problem similar to that in 
-  image recognition. The accuracy and generalization of this approach, however, cannot
-  be guaranteed with PDF constraint in FWI.
+    1. One research direction is to build a direct inverse mapping from observations 
+    to subserfaces structure by training neural networks on paired data of seismic 
+    waveforms and velocity models (Wu et al., 2018; Yang and Ma, 2019; Li et al., 2019
+    Kazei et al., 2021). This approach does not rely on solving the wave equation 
+    but instead treat FWI as a data-driven machine learning problem similar to that in 
+    image recognition. The accuracy and generalization of this approach, however, cannot
+    be guaranteed with PDF constraint in FWI.
 
-  2. Another research direction is to apply deep learning as an effective signal 
-  processing tool to improve the optimization process of conventional FWI. Fow example 
-  several studies applied neural networks to extrapolate the missing low frequencies
-  and help mitigate the cycle skipping problem (Ovcharenko et al., 2019; Sun and Demanet, 
-  2020; Hu et al., 2021). In addition to these data-driven approaches, another promising 
-  direction is to combine neural networks and PDFs to formulate FWI as a physical-
-  constrained machine problem (Richardson, 2018a; Mosser et. al., 2020; Wu and McMechan, 2019,
-  2020; He and Wang, 2021).
+    2. Another research direction is to apply deep learning as an effective signal 
+    processing tool to improve the optimization process of conventional FWI. Fow example 
+    several studies applied neural networks to extrapolate the missing low frequencies
+    and help mitigate the cycle skipping problem (Ovcharenko et al., 2019; Sun and Demanet, 
+    2020; Hu et al., 2021). In addition to these data-driven approaches, another promising 
+    direction is to combine neural networks and PDFs to formulate FWI as a physical-
+    constrained machine problem (Richardson, 2018a; Mosser et. al., 2020; Wu and McMechan, 2019,
+    2020; He and Wang, 2021).
 
-  3. Ulyanov et al. (2018)'s work on deep image prior demonstrated that the CNN 
-  architecture without pre-training can be used as a prior with excellent results 
-  in inverse problems of computer vision, such as denoising, super-resolution, and 
-  impainting.
+    3. Ulyanov et al. (2018)'s work on deep image prior demonstrated that the CNN 
+    architecture without pre-training can be used as a prior with excellent results 
+    in inverse problems of computer vision, such as denoising, super-resolution, and 
+    impainting.
 
 
 
